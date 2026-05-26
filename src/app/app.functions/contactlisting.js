@@ -12,7 +12,7 @@ exports.main = async (context) => {
   // 2. Build the HubSpot Search API payload
   const payload = {
     limit: limit,
-    properties: ["firstname", "lastname", "email"],
+    properties: ["firstname", "lastname", "email", "phone"],
   };
 
   // If the user typed a search term, add it to the query
