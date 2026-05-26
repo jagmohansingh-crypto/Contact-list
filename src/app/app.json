@@ -1,0 +1,7 @@
+{
+  "name": "Contact Listing APP",
+  "description": "Fetch contact details from HubSpot CRM via serverless.",
+  "uid": "contact_listing_app",
+  "scopes": ["crm.objects.contacts.read"],
+  "public": false
+}

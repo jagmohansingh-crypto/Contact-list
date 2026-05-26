@@ -1,0 +1,12 @@
+{
+  "appFunctions": {
+    "get-contact": {
+      "file": "contactlisting.js",
+      "secrets": ["contact_app"],
+      "endpoint": {
+        "path": "get-contacts",
+        "method": ["GET"]
+      }
+    }
+  }
+}
